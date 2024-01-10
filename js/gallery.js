@@ -103,7 +103,6 @@ list.addEventListener('click', event => {
   modal.show();
 
   function closeModal(event) {
-    console.log(event.code);
     if (event.code === 'Escape') {
       modal.close();
     }
