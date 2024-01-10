@@ -82,8 +82,7 @@ const item = images
   .join('');
 
 list.innerHTML = item;
-const image = document.querySelector('.gallery-image');
-const link = document.querySelector('.gallery-link');
+
 list.addEventListener('click', event => {
   if (event.target.nodeName !== 'IMG') {
     return;
